@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "image-tools": "^1.4.0",
+    "js": "^0.1.0",
+    "js-md5": "^0.7.3"
+  }
+}

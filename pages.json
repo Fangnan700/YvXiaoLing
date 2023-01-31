@@ -1,0 +1,194 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "喻小灵-主页"
+			}
+		}
+	    ,{
+            "path" : "pages/tools_box/tools_box",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "喻小灵-工具箱",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/moyu/moyu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "喻小灵-摸鱼",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/girl/girl",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "随机小姐姐短视频",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/boy/boy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "随机小哥哥短视频",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "喻小灵-关于我",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/douyin_straight_chain/douyin_straight_chain",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抖音无水印视频下载",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kuaishou_straight_chain/kuaishou_straight_chain",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快手无水印视频下载",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ip_lookups/ip_lookups",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "IP信息查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/check_my_ip/check_my_ip",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "本机IP查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/love_text/love_text",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "爱情文案生成器",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/website_speed_measurement/website_speed_measurement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "网站测速工具",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tiangou/tiangou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "舔狗日记",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/youdao/youdao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "有道翻译",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/everyday_news/everyday_news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "今日新闻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/kuaidichaxun/kuaidichaxun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快递信息查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/saoraodianhua/saoraodianhua",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "骚扰电话查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {},
+	"tabBar":{
+			"borderStyle":"black",			//边框颜色
+			"backgroundColor":"#FFFFFF",	//背景颜色
+			"color":"#000000",				//默认颜色
+			"selectedColor":"#1296DB",		//选中的颜色
+			"list":[
+				{
+					"iconPath":"static/home0.png",
+					"selectedIconPath":"static/home1.png",
+					"text":"主页",
+					"pagePath":"pages/index/index"
+				},
+				{
+					"iconPath":"static/tools_box0.png",
+					"selectedIconPath":"static/tools_box1.png",
+					"text":"工具箱",
+					"pagePath":"pages/tools_box/tools_box"
+				},
+				{
+					"iconPath":"static/play0.png",
+					"selectedIconPath":"static/play1.png",
+					"text":"摸鱼",
+					"scrollIndicator":"none",
+					"pagePath":"pages/moyu/moyu"
+				},
+				{
+					"iconPath":"static/about0.png",
+					"selectedIconPath":"static/about1.png",
+					"text":"关于我",
+					"pagePath":"pages/about/about"
+				}
+			]
+		}
+}
